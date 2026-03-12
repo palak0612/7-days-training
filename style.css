@@ -17,3 +17,40 @@
   text-decoration: none;
   color: white;
 }
+
+.hero{
+  text-align: center;
+  padding: 80px;
+  background: lightblue;
+}
+
+.btn{
+  background: rgb(152, 152, 215);
+  
+}
+
+.cards{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card{
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+input, textarea{
+  padding: 10px;
+}
